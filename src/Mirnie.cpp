@@ -21,9 +21,9 @@ TMirnie::TMirnie(TMirnie& p)
 	this->jiteli = p.jiteli;
 }
 
-void TMirnie::Print2()
+void TMirnie::Print()
 {
-	Print1();
+	cout << "material = " << material << "\netaji = " << etaji << "\nlift = " << lift << endl;
 	cout << "jiteli = " << jiteli << endl;
 }
 

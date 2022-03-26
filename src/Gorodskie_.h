@@ -8,11 +8,12 @@ public:
 	TGorodskie(int _jilPloshad,bool _balkon);
 	~TGorodskie();
 	TGorodskie(TGorodskie& p);
+	void Print();
 
 	void SetGilPloshad(int _jilPloshad);
 	int GetGilPloshad();
 	void SetBalkon(bool _balkon);
-	bool GetBalkon();
+	string GetBalkon();
 protected:
 	int jilPloshad;
 	bool balkon;

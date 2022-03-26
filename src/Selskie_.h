@@ -8,6 +8,7 @@ public:
 	TSelskie(int _zemli);
 	~TSelskie();
 	TSelskie(TSelskie& p);
+	void Print();
 
 	void SetZemli(int _zemli);
 	int GetZemli();

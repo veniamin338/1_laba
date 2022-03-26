@@ -23,6 +23,13 @@ TGorodskie::TGorodskie(TGorodskie& p)
 	this->balkon = p.balkon;
 }
 
+void TGorodskie::Print()
+{
+	cout << "material = " << material << "\netaji = " << etaji << "\nlift = " << lift << endl;
+	cout << "jiteli = " << jiteli << endl;
+	cout << "jilPlochad = " << jilPloshad << "\nbalkon " << this->GetBalkon() << endl;
+}
+
 void TGorodskie::SetGilPloshad(int _jilPloshad)
 {
 	jilPloshad = _jilPloshad;
@@ -38,8 +45,11 @@ void TGorodskie::SetBalkon(bool _balkon)
 	balkon = _balkon;
 }
 
-bool TGorodskie::GetBalkon()
+string TGorodskie::GetBalkon()
 {
-	return this-> balkon;
+	if (this->balkon)
+		return "Estt";
+	else
+		return " a ego net :(";
 }
 

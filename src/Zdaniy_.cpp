@@ -60,7 +60,12 @@ bool TZdaniy::GetLift()
 	return lift;
 }
 
-void TZdaniy::Print1()
-{
-	cout << "material = " << material << "\netaji = " << etaji << "\nlift = " << lift <<endl;
-}
+//void TZdaniy::Print1()
+//{
+//	cout << "material = " << material << "\netaji = " << etaji << "\nlift = " << lift <<endl;
+//}
+
+//void TZdaniy::Print()
+//{
+	//cout<< "material = " << material << "\netaji = " << etaji << "\nlift = " << lift << endl;
+//}
