@@ -8,6 +8,7 @@ public:
 	TPassiv(int _rabochie);
 	~TPassiv();
 	TPassiv(TPassiv& p);
+	void Print();
 
 	void SetRabochie(int _rabochie);
 	int GetRabochie();

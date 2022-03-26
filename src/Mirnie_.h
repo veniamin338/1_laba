@@ -9,7 +9,7 @@ public:
 	TMirnie(int _jiteli);
 	~TMirnie();
 	TMirnie(TMirnie& p);
-	void Print2();
+	virtual void Print();
 
 	void SetJiteli(int _jiteli);
 	int GetJiteli();

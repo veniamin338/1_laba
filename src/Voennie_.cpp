@@ -16,9 +16,9 @@ TVoennie::~TVoennie()
 {
 }
 
-void TVoennie::PrintVoennie()
+void TVoennie::Print()
 {
-	Print1();
+	cout << "material = " << material << "\netaji = " << etaji << "\nlift = " << lift << endl;
 	cout << "ohrana = " << ohrana << endl;
 }
 

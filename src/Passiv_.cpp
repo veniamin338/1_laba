@@ -20,6 +20,12 @@ TPassiv::TPassiv(TPassiv& p)
 	rabochie = p.rabochie;
 }
 
+void TPassiv::Print()
+{
+	cout << "material = " << material << "\netaji = " << etaji << "\nlift = " << lift << endl;
+	cout << "ohrana = " << ohrana <<"rabochie = "<<rabochie<< endl;
+}
+
 void TPassiv::SetRabochie(int _rabochie)
 {
 	rabochie = _rabochie;

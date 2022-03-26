@@ -9,7 +9,7 @@ public:
 	TActiv(int _vidVooryjeniyN);
 	~TActiv();
 	TActiv(TActiv& p);
-	void PrintActiv();
+	void Print();
 
 
 	void SetVidVooryjeniyN(int _vidVooryjeniyN);

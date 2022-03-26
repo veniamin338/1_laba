@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include<iostream>
 using std::cout;
 using std::endl;
 using std::string;
@@ -17,7 +18,8 @@ public:
 	string GetMaterial();
 	int GetEtaji();
 	bool GetLift();
-	void Print1();
+
+	virtual void Print() = 0;
 
 protected:
 	string material;

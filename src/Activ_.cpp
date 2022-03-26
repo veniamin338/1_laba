@@ -15,7 +15,7 @@ TActiv::TActiv(int _vidVooryjeniyN)
 
 TActiv::~TActiv()
 {
-	delete[] this->vidVooryjeniy;
+	delete [] this->vidVooryjeniy;
 }
 
 TActiv::TActiv(TActiv& p)
@@ -26,12 +26,13 @@ TActiv::TActiv(TActiv& p)
 
 }
 
-void TActiv::PrintActiv()
+void TActiv::Print()
 {
-	PrintVoennie();
+	cout << "material = " << material << "\netaji = " << etaji << "\nlift = " << lift << endl;
+	cout << "ohrana = " << ohrana << endl;
 	cout << "kolichestvo_voorygeniy = " << vidVooryjeniyN << endl;
-	for (int i = 0; i < vidVooryjeniyN; i++)
-		cout <<"vidVooryjeniy["<<i<<"] = "<< vidVooryjeniy[i]<<endl;
+	//for (int i = 0; i < vidVooryjeniyN; i++)
+		//cout <<"vidVooryjeniy["<<i<<"] = "<< vidVooryjeniy[i]<<endl;
 }
 
 void TActiv::SetVidVooryjeniyN(int _vidVooryjeniyN)

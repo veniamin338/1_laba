@@ -7,30 +7,33 @@
 #include "Activ_.h"
 #include "Passiv_.h"
 
+#include "Administraciy_.h"
+
 using std::cout;
 using std::endl;
 using std::string;
 
 int main()
 {
-	TZdaniy a("gzb", 5, false);
-
-	//cout << a.GetMaterial() << a.GetEtaji() << a.GetLift() << endl;
-	a.Print1();
-	cout << endl << endl;
-	TMirnie b(28);
-	b.SetMaterial("corton");
-	b.Print2();
-	cout << endl << endl;
-	TActiv k (6);
-	k.SetVidVooryjeniy(1, 5);
-	k.SetVidVooryjeniy(1, 4);
-	k.SetVidVooryjeniy(1, 1);
-	k.PrintActiv();
-
+	TZdaniy* a = new TGorodskie(800, false);
 
 	
-
+	//a->Print();
+	
+	TMirnie b(28);
+	b.SetMaterial("corton");
+	//b.Print();
+	//cout << endl << endl;
+	TActiv k (6);
+	k.SetVidVooryjeniy(1, 5);
+	
+	//k.Print();
+	TAdministraciy spisok;
+	spisok.SetKarta(a);
+	spisok.SetKarta(&b);
+	spisok.SetKarta(&k);
+	//spisok.SetKarta(a);
+	spisok.Print();
 	
 	
 

@@ -8,7 +8,7 @@ public:
 	TVoennie();
 	TVoennie(int _ohrana);
 	~TVoennie();
-	void PrintVoennie();
+	void Print();
 
 	void SetOhrana(int _ohrana);
 	int GetOhrana();
