@@ -5,13 +5,13 @@
 class TVoennie :public TZdaniy
 {
 public:
-	TVoennie();
-	TVoennie(int _ohrana);
-	~TVoennie();
-	void PrintVoennie();
+  TVoennie();
+  TVoennie(int _ohrana);
+  ~TVoennie();
+  void PrintVoennie();
 
-	void SetOhrana(int _ohrana);
-	int GetOhrana();
+  void SetOhrana(int _ohrana);
+  int GetOhrana();
 protected:
-	int ohrana;
+  int ohrana;
 };

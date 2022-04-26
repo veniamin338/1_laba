@@ -1,0 +1,3 @@
+C:/Users/itmm-2113-a/Desktop/1/1_laba/b/CMakeFiles/lab.dir
+C:/Users/itmm-2113-a/Desktop/1/1_laba/b/CMakeFiles/ALL_BUILD.dir
+C:/Users/itmm-2113-a/Desktop/1/1_laba/b/CMakeFiles/ZERO_CHECK.dir
