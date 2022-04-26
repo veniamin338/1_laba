@@ -4,12 +4,12 @@
 class TAdministraciy
 {
 public:
-	TAdministraciy();
-	~TAdministraciy();
+  TAdministraciy();
+  ~TAdministraciy();
 
-	void SetKarta(TZdaniy* n);
-	void Print();
+  void SetKarta(TZdaniy* n);
+  void Print();
 protected:
-	int kvoZdaniy;
-	TZdaniy** karta;
+  int kvoZdaniy;
+  TZdaniy** karta;
 };

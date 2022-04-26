@@ -4,12 +4,12 @@
 
 TVoennie::TVoennie()
 {
-	this->ohrana = 0;
+  this->ohrana = 0;
 }
 
 TVoennie::TVoennie(int _ohrana)
 {
-	this->ohrana = _ohrana;
+  this->ohrana = _ohrana;
 }
 
 TVoennie::~TVoennie()
@@ -18,16 +18,16 @@ TVoennie::~TVoennie()
 
 void TVoennie::Print()
 {
-	cout << "material = " << material << "\netaji = " << etaji << "\nlift = " << lift << endl;
-	cout << "ohrana = " << ohrana << endl;
+  cout << "material = " << material << "\netaji = " << etaji << "\nlift = " << lift << endl;
+  cout << "ohrana = " << ohrana << endl;
 }
 
 void TVoennie::SetOhrana(int _ohrana)
 {
-	this->ohrana = _ohrana;
+  this->ohrana = _ohrana;
 }
 
 int TVoennie::GetOhrana()
 {
-	return this->ohrana;
+  return this->ohrana;
 }

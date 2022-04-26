@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.20) #Проверка версии CMake.
+﻿cmake_minimum_required(VERSION 2.20) #Проверка версии CMake.
 
 set(PROJECT_NAME lab) #Создаем обычную локальную переменную с именем проекта
 project(${PROJECT_NAME}) # Название проекта

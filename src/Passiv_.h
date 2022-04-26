@@ -4,14 +4,14 @@
 class TPassiv : public TVoennie
 {
 public:
-	TPassiv();
-	TPassiv(int _rabochie);
-	~TPassiv();
-	TPassiv(TPassiv& p);
-	void Print();
+  TPassiv();
+  TPassiv(int _rabochie);
+  ~TPassiv();
+  TPassiv(TPassiv& p);
+  void Print();
 
-	void SetRabochie(int _rabochie);
-	int GetRabochie();
+  void SetRabochie(int _rabochie);
+  int GetRabochie();
 protected:
-	int rabochie;
+  int rabochie;
 };

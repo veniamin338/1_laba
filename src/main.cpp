@@ -15,29 +15,29 @@ using std::string;
 
 int main()
 {
-	TZdaniy* a = new TGorodskie(800, false);
+  TZdaniy* a = new TGorodskie(800, false);
 
-	
-	//a->Print();
-	
-	TMirnie b(28);
-	b.SetMaterial("corton");
-	//b.Print();
-	//cout << endl << endl;
-	TActiv k (6);
-	k.SetVidVooryjeniy(1, 5);
-	
-	//k.Print();
-	TAdministraciy spisok;
-	spisok.SetKarta(a);
-	spisok.SetKarta(&b);
-	spisok.SetKarta(&k);
-	//spisok.SetKarta(a);
-	spisok.Print();
-	
-	
+
+  //a->Print();
+
+  TMirnie b(28);
+  b.SetMaterial("corton");
+  //b.Print();
+  //cout << endl << endl;
+  TActiv k(6);
+  k.SetVidVooryjeniy(1, 5);
+
+  //k.Print();
+  TAdministraciy spisok;
+  spisok.SetKarta(a);
+  spisok.SetKarta(&b);
+  spisok.SetKarta(&k);
+  //spisok.SetKarta(a);
+  spisok.Print();
 
 
 
-	return 0;
+
+
+  return 0;
 }
